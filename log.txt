@@ -1,0 +1,251 @@
+--------- beginning of main
+06-29 21:25:25.030 32266 32314 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+06-29 21:25:25.030 32266 32314 D HeadsetStateMachine: Enter processIntentBatteryChanged()
+06-29 21:25:25.030 32266 32314 D HeadsetStateMachine: Exit processIntentBatteryChanged()
+06-29 21:25:25.030 32266 32314 D HeadsetStateMachine: Exit Disconnected processMessage() 
+06-29 21:25:26.630  1889  1889 I StatusBar: onNotificationPosted key:0|free.vpn.unblock.proxy.turbovpn|1000|null|10114 isUpdate:true
+06-29 21:25:26.632  1889  1889 I StatusBar: handleNotification key:0|free.vpn.unblock.proxy.turbovpn|1000|null|10114 isUpdate:true
+06-29 21:25:26.633  1889  1889 D StatusBar: updateNotification(StatusBarNotification(pkg=free.vpn.unblock.proxy.turbovpn user=UserHandle{0} id=1000 tag=null key=0|free.vpn.unblock.proxy.turbovpn|1000|null|10114: Notification(channel=null pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x16a color=0xff3f51b5 category=service vis=PRIVATE)))
+06-29 21:25:26.636  2929  4370 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.INotificationListener' but read 'android.service.notification.INotificationListener'
+06-29 21:25:26.637  2929  4370 W Binder  : Binder call failed.
+06-29 21:25:26.637  2929  4370 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-29 21:25:26.637  2929  4370 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-29 21:25:26.637  2929  4370 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:584)
+06-29 21:25:26.637  2929  4370 W Binder  : 	at com.miui.gamebooster.service.INotificationListener$Stub.onTransact(Unknown Source:16)
+06-29 21:25:26.637  2929  4370 W Binder  : 	at android.os.Binder.execTransact(Binder.java:704)
+06-29 21:25:26.643  2929 20457 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.INotificationListener' but read 'android.service.notification.INotificationListener'
+06-29 21:25:26.643  2929 20457 W Binder  : Binder call failed.
+06-29 21:25:26.643  2929 20457 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-29 21:25:26.643  2929 20457 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-29 21:25:26.643  2929 20457 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:584)
+06-29 21:25:26.643  2929 20457 W Binder  : 	at com.miui.gamebooster.service.INotificationListener$Stub.onTransact(Unknown Source:16)
+06-29 21:25:26.643  2929 20457 W Binder  : 	at android.os.Binder.execTransact(Binder.java:704)
+06-29 21:25:26.645  1889  1889 I StatusBar: onNotificationPosted key:0|free.vpn.unblock.proxy.turbovpn|1000|null|10114 isUpdate:true
+06-29 21:25:26.646  1889  1889 I StatusBar: handleNotification key:0|free.vpn.unblock.proxy.turbovpn|1000|null|10114 isUpdate:true
+06-29 21:25:26.646  1889  1889 D StatusBar: updateNotification(StatusBarNotification(pkg=free.vpn.unblock.proxy.turbovpn user=UserHandle{0} id=1000 tag=null key=0|free.vpn.unblock.proxy.turbovpn|1000|null|10114: Notification(channel=null pri=0 contentView=free.vpn.unblock.proxy.turbovpn/0x109009c vibrate=null sound=null defaults=0x0 flags=0x16a color=0xff3f51b5 category=service vis=PRIVATE)))
+06-29 21:25:26.668  1889  1889 D StatusBar: No peeking: unimportant notification: 0|free.vpn.unblock.proxy.turbovpn|1000|null|10114
+06-29 21:25:26.677  1889  1889 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-29 21:25:26.678  1889  1889 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-29 21:25:27.030  1889  1889 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-29 21:25:27.032  2028  2028 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-29 21:25:27.033  2916  3412 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+06-29 21:25:27.033  2929  2929 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-29 21:25:27.033  1889  1889 D KeyguardUpdateMonitor: handleBatteryUpdate
+06-29 21:25:27.035 32266 32314 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+06-29 21:25:27.035 32266 32314 D HeadsetStateMachine: Enter processIntentBatteryChanged()
+06-29 21:25:27.035 32266 32314 D HeadsetStateMachine: Exit processIntentBatteryChanged()
+06-29 21:25:27.035 32266 32314 D HeadsetStateMachine: Exit Disconnected processMessage() 
+06-29 21:25:28.025  1889  1889 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-29 21:25:28.025  1889  1889 D KeyguardUpdateMonitor: handleBatteryUpdate
+06-29 21:25:28.026  2028  2028 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-29 21:25:28.027  2916  3412 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+06-29 21:25:28.027  2929  2929 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-29 21:25:28.029 32266 32314 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+06-29 21:25:28.029 32266 32314 D HeadsetStateMachine: Enter processIntentBatteryChanged()
+06-29 21:25:28.029 32266 32314 D HeadsetStateMachine: Exit processIntentBatteryChanged()
+06-29 21:25:28.029 32266 32314 D HeadsetStateMachine: Exit Disconnected processMessage() 
+06-29 21:25:30.029  1889  1889 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-29 21:25:30.031  1889  1889 D KeyguardUpdateMonitor: handleBatteryUpdate
+06-29 21:25:30.031  2028  2028 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-29 21:25:30.031  2916  3412 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+06-29 21:25:30.032  2929  2929 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-29 21:25:30.033 32266 32314 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+06-29 21:25:30.033 32266 32314 D HeadsetStateMachine: Enter processIntentBatteryChanged()
+06-29 21:25:30.033 32266 32314 D HeadsetStateMachine: Exit processIntentBatteryChanged()
+06-29 21:25:30.033 32266 32314 D HeadsetStateMachine: Exit Disconnected processMessage() 
+06-29 21:25:30.877  2047  2047 D Launcher: Launcher.dispatchTouchEvent:0
+06-29 21:25:30.878  2047  2047 D FeedSwipeController: touchState : 0 scrolling : false normalEditing : false WidgetThumbnailViewShowing : false UninstallDialogShowing : false
+06-29 21:25:30.878  2047  2047 D FeedSwipeController: can not use
+06-29 21:25:30.879  2047  2047 D Launcher.Workspace: Workspace touch down
+06-29 21:25:30.916  2047  2047 D Launcher: Launcher.dispatchTouchEvent:1
+06-29 21:25:30.916  2047  2047 D Launcher.Workspace: Workspace touch up or cancel
+06-29 21:25:30.916  2047  2474 I RenderThread: RenderThread resumed
+06-29 21:25:30.916  2047  2474 I RenderThread: All controllers paused.
+06-29 21:25:30.916  2047  2474 I RenderThread: RenderThread paused, waiting for signal
+06-29 21:25:30.925   589   640 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+06-29 21:25:30.926  1599  2405 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+--------- beginning of system
+06-29 21:25:30.929  1599  2405 W WindowManager: Attempted to set focus to non-existing app token: Token{33fcb55 ActivityRecord{adba96a u0 com.example.mockbluetoothchat/.BluetoothChat t380}}
+06-29 21:25:30.931  1599  2405 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{f219e5b com.example.mockbluetoothchat}
+06-29 21:25:30.931  1599  2405 E ActivityTrigger: activityStartTrigger: not whiteListedcom.example.mockbluetoothchat/com.example.mockbluetoothchat.BluetoothChat/1
+06-29 21:25:30.932  1599  2405 D CompatibilityInfo: mCompatibilityFlags - 0
+06-29 21:25:30.932  1599  2405 D CompatibilityInfo: applicationDensity - 440
+06-29 21:25:30.932  1599  2405 D CompatibilityInfo: applicationScale - 1.0
+06-29 21:25:30.932  1599  2405 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{f219e5b com.example.mockbluetoothchat} is now in focus and seems to be in full-screen mode
+06-29 21:25:30.932  1599  2405 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.example.mockbluetoothchat/com.example.mockbluetoothchat.BluetoothChat/1
+06-29 21:25:30.933  1599  2405 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-29 21:25:30.937  2047  2047 D BaseFeedFragment188628423: onPause
+06-29 21:25:30.939  1599  2405 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{f219e5b com.example.mockbluetoothchat} is now in focus and seems to be in full-screen mode
+06-29 21:25:30.939  1599  2405 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.example.mockbluetoothchat/com.example.mockbluetoothchat.BluetoothChat/1
+06-29 21:25:30.953  2916  3306 D PowerKeeper.Event: notifyAMProcStart processName: 10177 reason: com.example.mockbluetoothchat, pid:0
+06-29 21:25:30.957  9523  9523 I zygote64: Late-enabling -Xcheck:jni
+06-29 21:25:30.958  2047  2277 D Launcher: disableStatusBarClock:false
+06-29 21:25:30.992  9523  9523 W zygote64: miui_dex2oat: DeoptimizeBootImage: patch entry points of methods in boot image to interpreter bridge
+06-29 21:25:31.011  9523  9530 E zygote64: Failed sending reply to debugger: Broken pipe
+06-29 21:25:31.011  9523  9530 I zygote64: Debugger is no longer active
+06-29 21:25:31.019  2916  2916 I PowerKeeperBackgroundService: onStartCommand()
+06-29 21:25:31.019  2916  2916 I PowerKeeperService: onAlarm
+06-29 21:25:31.020  1599  1775 I WifiService: isScanAlwaysAvailable uid=1000
+06-29 21:25:31.020  1599  1775 I WifiService: getWifiEnabledState uid=1000
+06-29 21:25:31.021  1599  2405 D CompatibilityInfo: mCompatibilityFlags - 0
+06-29 21:25:31.021  1599  2405 D CompatibilityInfo: applicationDensity - 440
+06-29 21:25:31.021  1599  2405 D CompatibilityInfo: applicationScale - 1.0
+06-29 21:25:31.027  1599  2405 D CompatibilityInfo: mCompatibilityFlags - 0
+06-29 21:25:31.027  1599  2405 D CompatibilityInfo: applicationDensity - 440
+06-29 21:25:31.027  1599  2405 D CompatibilityInfo: applicationScale - 1.0
+06-29 21:25:31.028  2929  2958 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.example.mockbluetoothchat', mForegroundUid=10177, mForegroundPid=9523, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10026, mLastForegroundPid=2047, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-29 21:25:31.029  2568  2596 I octvm_power: power mode [normal] start 1561814731
+06-29 21:25:31.030  2568  2596 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-29 21:25:31.030  2568  2596 I octvm_power: Action: set_bcbc_cust_state(disable) for [foreground_change]
+06-29 21:25:31.030  2568  2596 I octvm_drv: common drv: platform_set_bcbc_cust_state -> platform not support
+06-29 21:25:31.030  2568  2596 I octvm_power: Action: set_lcd_mode(default) for [foreground_change]
+06-29 21:25:31.030  2568  2596 I octvm_drv: common drv: platform_set_lcd_mode -> platform not support
+06-29 21:25:31.030  2568  2596 I octvm_power: Action: set_thermal_config(restore) for [foreground_change]
+06-29 21:25:31.030  2568  2596 I octvm_drv: common drv: platform_set_thermal_mode -> platform not support
+06-29 21:25:31.030  2568  2596 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-29 21:25:31.030  2568  2596 I octvm_power: onPowerModeChanged[normal] called
+06-29 21:25:31.036  1889  1889 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-29 21:25:31.036  1889  1889 D KeyguardUpdateMonitor: handleBatteryUpdate
+06-29 21:25:31.036  2028  2028 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-29 21:25:31.036  2929  2929 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-29 21:25:31.037  2916  3412 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+06-29 21:25:31.037 32266 32314 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+06-29 21:25:31.038 32266 32314 D HeadsetStateMachine: Enter processIntentBatteryChanged()
+06-29 21:25:31.038 32266 32314 D HeadsetStateMachine: Exit processIntentBatteryChanged()
+06-29 21:25:31.038 32266 32314 D HeadsetStateMachine: Exit Disconnected processMessage() 
+06-29 21:25:31.046  1889  1889 D StatusBar: disable<e i a s b h r c s > disable2<q i n g r >
+06-29 21:25:31.047  1889  1889 D PhoneStatusBar/NavigationBarView: setDisabledFlags back:false home:false recent:false
+06-29 21:25:31.055  9523  9523 W zygote64: miui_dex2oat:　OatFile: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/oat/arm64/base.odex Compiler-Filter = quicken
+06-29 21:25:31.056  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_dependencies_apk.apk is not exists
+06-29 21:25:31.065  1889  1889 W ResourceType: No package identifier when getting name for resource number 0x00000000
+06-29 21:25:31.136  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_dependencies_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.138  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_resources_apk.apk is not exists
+06-29 21:25:31.139  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_0_apk.apk is not exists
+06-29 21:25:31.139  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_1_apk.apk is not exists
+06-29 21:25:31.140  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_1_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.141  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_2_apk.apk is not exists
+06-29 21:25:31.145  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_2_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.147  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_3_apk.apk is not exists
+06-29 21:25:31.154  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_3_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.154  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_4_apk.apk is not exists
+06-29 21:25:31.155  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_4_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.156  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_5_apk.apk is not exists
+06-29 21:25:31.156  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_5_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.157  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_6_apk.apk is not exists
+06-29 21:25:31.158  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_6_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.158  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_7_apk.apk is not exists
+06-29 21:25:31.159  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_7_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.159  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_8_apk.apk is not exists
+06-29 21:25:31.160  9523  9523 W zygote64: miui_dex2oat: oat file of /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_9_apk.apk is not exists
+06-29 21:25:31.162  9523  9523 W zygote64: miui_dex2oat: /data/app/com.example.mockbluetoothchat-vZWmcTmx1-eeCObfliowXA==/split_lib_slice_9_apk.apk: Fall back to running out of the original dex file.
+06-29 21:25:31.169  9523  9523 W ResourceType: No package identifier when getting name for resource number 0x00000000
+06-29 21:25:31.184  9523  9523 I InstantRun: starting instant run server: is main process
+06-29 21:25:31.195  9523  9523 W ResourceType: No package identifier when getting name for resource number 0x00000000
+06-29 21:25:31.262  9523  9523 E BluetoothChat: +++ ON CREATE +++
+06-29 21:25:31.266  9523  9541 W ResourceType: No package identifier when getting name for resource number 0x00000000
+06-29 21:25:31.269  9523  9523 D AccessibilityManager: AccessibilityManager status: mPackageName = com.example.mockbluetoothchat, mOptimizeEnabled = false, mIsEnabled = false, mIsUiAutomationEnabled = false, mIsInterestedPackage =false
+06-29 21:25:31.273  9523  9541 I zygote64: The ClassLoaderContext is a special shared library.
+06-29 21:25:31.273  9523  9541 W zygote64: miui_dex2oat:　OatFile: /system/framework/oat/arm64/gson.odex Compiler-Filter = speed
+06-29 21:25:31.274  9523  9541 W zygote64: miui_dex2oat:　OatFile: /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex Compiler-Filter = speed
+06-29 21:25:31.275  9523  9523 W Binder:intercep: type=1400 audit(0.0:2929): avc: denied { getattr } for path="/data/data/com.miui.contentcatcher" dev="dm-1" ino=1433763 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+06-29 21:25:31.283  9523  9541 D ViewContentFactory: initViewContentFetcherClass
+06-29 21:25:31.283  9523  9541 D ViewContentFactory: getInterceptorPackageInfo
+06-29 21:25:31.285  9523  9541 D ViewContentFactory: getInitialApplication took 1ms
+06-29 21:25:31.285  9523  9541 D ViewContentFactory: packageInfo.packageName: com.miui.catcherpatch
+06-29 21:25:31.287  9523  9541 W ResourceType: No package identifier when getting name for resource number 0x00000000
+06-29 21:25:31.295  9523  9541 W zygote64: miui_dex2oat:　OatFile: /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex Compiler-Filter = speed
+06-29 21:25:31.295  9523  9523 W Binder:intercep: type=1400 audit(0.0:2930): avc: denied { getattr } for path="/data/data/com.miui.catcherpatch" dev="dm-1" ino=1434012 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+06-29 21:25:31.299  9523  9541 D ViewContentFactory: initViewContentFetcherClass took 16ms
+06-29 21:25:31.300  9523  9541 I ContentCatcher: ViewContentFetcher : ViewContentFetcher
+06-29 21:25:31.300  9523  9541 D ViewContentFactory: createInterceptor took 16ms
+06-29 21:25:31.354  9523  9523 E BluetoothChat: ++ ON START ++
+06-29 21:25:31.355  9523  9523 D BluetoothChat: setupChat()
+06-29 21:25:31.360  1889  1889 D EventBus: [1889, u0] send(AppTransitionFinishedEvent)
+06-29 21:25:31.360  1889  1889 D EventBus: [1889, u0]  -> ForcedResizableInfoActivityController [0x5951e19, P1] onBusEvent(AppTransitionFinishedEvent)
+06-29 21:25:31.361  1889  1889 D EventBus: [1889, u0] onBusEvent(AppTransitionFinishedEvent) duration: 25 microseconds, avg: 499
+06-29 21:25:31.361  1889  1889 D EventBus: [1889, u0] send(AppTransitionFinishedEvent)
+06-29 21:25:31.361  1889  1889 D EventBus: [1889, u0]  -> ForcedResizableInfoActivityController [0x5951e19, P1] onBusEvent(AppTransitionFinishedEvent)
+06-29 21:25:31.361  1889  1889 D EventBus: [1889, u0] onBusEvent(AppTransitionFinishedEvent) duration: 35 microseconds, avg: 498
+06-29 21:25:31.366  9523  9523 E BluetoothChat: + ON RESUME +
+06-29 21:25:31.366  9523  9523 D BluetoothChatService: start
+06-29 21:25:31.367  9523  9523 D BluetoothChatService: setState() 0 -> 1
+06-29 21:25:31.369  9523  9523 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+06-29 21:25:31.371 32266 32306 I bt_stack: [INFO:port_api.cc(123)] RFCOMM_CreateConnection BDA: ff:ff:ff:ff:ff:ff
+06-29 21:25:31.372  9523  9542 D BluetoothChatService: Socket Type: SecureBEGIN mAcceptThreadThread[Thread-4,5,main]
+06-29 21:25:31.372  9523  9523 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+06-29 21:25:31.374 32266 32306 I bt_stack: [INFO:port_api.cc(123)] RFCOMM_CreateConnection BDA: ff:ff:ff:ff:ff:ff
+06-29 21:25:31.375  9523  9543 D BluetoothChatService: Socket Type: InsecureBEGIN mAcceptThreadThread[Thread-5,5,main]
+06-29 21:25:31.384  9523  9544 D OpenGLRenderer: HWUI GL Pipeline
+06-29 21:25:31.391  9523  9523 I BluetoothChat: MESSAGE_STATE_CHANGE: 1
+06-29 21:25:31.391  9523  9523 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: FATAL EXCEPTION: main
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: Process: com.example.mockbluetoothchat, PID: 9523
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.app.ActionBar.setSubtitle(int)' on a null object reference
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at com.example.mockbluetoothchat.BluetoothChat.setStatus(BluetoothChat.java:235)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at com.example.mockbluetoothchat.BluetoothChat.access$400(BluetoothChat.java:46)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at com.example.mockbluetoothchat.BluetoothChat$3.handleMessage(BluetoothChat.java:260)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:176)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6651)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:547)
+06-29 21:25:31.393  9523  9523 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:824)
+06-29 21:25:31.402  2916  3306 D PowerKeeper.Event: notifyAMCrash packageName: 0, pid:9523
+06-29 21:25:31.402  1599 18234 W ActivityManager:   Force finishing activity com.example.mockbluetoothchat/.BluetoothChat
+06-29 21:25:31.404  1599 18234 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-29 21:25:31.405  2047 24627 D Launcher: get showing item successandroid.graphics.Bitmap@2528e18
+06-29 21:25:31.406  1599  5600 I OpenGLRenderer: Initialized EGL, version 1.4
+06-29 21:25:31.407  1599  5600 D OpenGLRenderer: Swap behavior 2
+06-29 21:25:31.411  1599  9546 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1566 android.content.ContextWrapper.bindService:694 miui.os.DropBoxManager.yp:361 miui.os.DropBoxManager.yo:350 miui.os.DropBoxManager.addText:314 
+06-29 21:25:31.413  9523  9523 I Process : Sending signal. PID: 9523 SIG: 9
+06-29 21:25:31.416  1599  9546 D CompatibilityInfo: mCompatibilityFlags - 0
+06-29 21:25:31.416  1599  9546 D CompatibilityInfo: applicationDensity - 440
+06-29 21:25:31.416  1599  9546 D CompatibilityInfo: applicationScale - 1.0
+06-29 21:25:31.428  1599  1653 W zygote64: kill(-9523, 9) failed: No such process
+06-29 21:25:31.429  2916  3306 D PowerKeeper.Event: notifyAMProcDied pacakageName: com.example.mockbluetoothchat, pid:9523
+06-29 21:25:31.434  1599  1653 W zygote64: kill(-9523, 9) failed: No such process
+06-29 21:25:31.434  1599  1653 I zygote64: Successfully killed process cgroup uid 10177 pid 9523 in 5ms
+06-29 21:25:31.436  1599  2752 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{fd3e561 com.miui.home} is now in focus and seems to be in full-screen mode
+06-29 21:25:31.436  1599  2752 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.miui.home/com.miui.home.launcher.Launcher/40950894
+06-29 21:25:31.440  2568  2596 I octvm_power: power mode [home] start 1561814731
+06-29 21:25:31.440  2929  4370 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10026, mForegroundPid=2047, mLastForegroundPackageName='com.example.mockbluetoothchat', mLastForegroundUid=10177, mLastForegroundPid=9523, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-29 21:25:31.440  2568  2596 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-29 21:25:31.440  2568  2596 I octvm_power: Action: set_bcbc_cust_state(disable) for [foreground_change]
+06-29 21:25:31.440  2568  2596 I octvm_drv: common drv: platform_set_bcbc_cust_state -> platform not support
+06-29 21:25:31.440  2568  2596 I octvm_power: Action: set_lcd_mode(default) for [foreground_change]
+06-29 21:25:31.440  2568  2596 I octvm_drv: common drv: platform_set_lcd_mode -> platform not support
+06-29 21:25:31.440  2568  2596 I octvm_power: Action: set_thermal_config(restore) for [foreground_change]
+06-29 21:25:31.440  2568  2596 I octvm_drv: common drv: platform_set_thermal_mode -> platform not support
+06-29 21:25:31.441  2568  2596 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-29 21:25:31.441  2568  2596 I octvm_power: onPowerModeChanged[home] called
+06-29 21:25:31.444   589   640 E ANDR-PERF-UTIL: Failed to read 
+06-29 21:25:31.444   589   640 I chatty  : uid=0(root) vendor.qti.hard identical 1 line
+06-29 21:25:31.444   589   640 E ANDR-PERF-UTIL: Failed to read 
+06-29 21:25:31.446   589   640 E ANDR-PERF-OPTSHANDLER: Failed to read /sys/class/kgsl/kgsl-3d0/force_no_nap
+06-29 21:25:31.446   589   640 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [10, 7]
+06-29 21:25:31.449  1599  1658 W ActivityManager: setHasOverlayUi called on unknown pid: 9523
+06-29 21:25:31.454  2047  2277 D Launcher: disableStatusBarClock:false
+06-29 21:25:31.454  2047  2474 I RenderThread: RenderThread resumed
+06-29 21:25:31.454  2047  2474 I RenderThread: All controllers paused.
+06-29 21:25:31.454  2047  2474 I RenderThread: RenderThread paused, waiting for signal
+06-29 21:25:31.455  2047  2047 D BaseFeedFragment188628423: onResume
+06-29 21:25:31.455  1889  1889 D StatusBar: disable<e i a s b h r c s > disable2<q i n g r >
+06-29 21:25:31.457  1889  1889 D PhoneStatusBar/NavigationBarView: setDisabledFlags back:false home:false recent:false
+06-29 21:25:31.744  1889  1889 D EventBus: [1889, u0] send(AppTransitionFinishedEvent)
+06-29 21:25:31.744  1889  1889 D EventBus: [1889, u0]  -> ForcedResizableInfoActivityController [0x5951e19, P1] onBusEvent(AppTransitionFinishedEvent)
+06-29 21:25:31.744  1889  1889 D EventBus: [1889, u0] onBusEvent(AppTransitionFinishedEvent) duration: 27 microseconds, avg: 498
+06-29 21:25:31.760  1599  1609 I zygote64: NativeAlloc concurrent copying GC freed 209290(10MB) AllocSpace objects, 26(1160KB) LOS objects, 42% free, 23MB/41MB, paused 161us total 219.870ms
+06-29 21:25:31.762  2047  2047 E Launcher: changeViewByFsGestureState,  view=FitSystemWindowView,  alpha=1.0,  scale=1.0
+06-29 21:25:31.762  2047  2047 E Launcher: changeViewByFsGestureState,  view=ForceTouchLayer,  alpha=1.0,  scale=1.0
+06-29 21:25:31.847   589   640 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: updated /sys/class/mmc_host/mmc0/clk_scaling/enable with 1
+06-29 21:25:31.847   589   640 E ANDR-PERF-OPTSHANDLER:  return value 2
+06-29 21:25:32.108  1599  2947 D WificondControl: Scan result ready event
+06-29 21:25:32.109   906 20476 I LOWI-8.5.0.3.b: [LOWI-Scan] lowi_close_record:Scan completed in 42754320ms and Recieved 9 APs scan results
+06-29 21:25:32.109  1599  1775 I WifiService: isScanAlwaysAvailable uid=1000
+06-29 21:25:32.109  1599  1775 I WifiService: getWifiEnabledState uid=1000
+06-29 21:25:32.111  1599  1775 I WifiService: isScanAlwaysAvailable uid=1000
+06-29 21:25:32.111  1599  1775 I WifiService: getWifiEnabledState uid=1000
+06-29 21:25:32.112  1599  1862 E AppScanObserverService: Result available, null observers for user: 0
+06-29 21:25:32.115  1599  2947 I WifiService: getWifiEnabledState uid=10072
+06-29 21:25:32.116  1599  2947 I WifiService: getWifiEnabledState uid=1000
